@@ -1,5 +1,5 @@
 var assert = (typeof assert !== "undefined") ? assert : require('assert');
-var guessLanguage = (typeof guessLanguage !== "undefined") ? guessLanguage : require('./../lib/guessLanguage');
+var GuessLanguage = (typeof GuessLanguage !== "undefined") ? GuessLanguage : require('./../lib/GuessLanguage');
 
 var tests = [
   ["This is a test of the language checker.", "en"],
@@ -76,7 +76,7 @@ var tests = [
 function IdTest(obj) {
   describe('Guess Language ID [' + obj[1] + ']', function() {
     it('Language is [' + obj[1] + ']', function(done) {
-      guessLanguage.detect(obj[0], function(id) {
+      GuessLanguage.detect(obj[0], function(id) {
         assert.equal(obj[1], id);
         done();
       });
@@ -95,7 +95,7 @@ var text = "Vérifions que le détecteur de langue fonctionne."
 describe('Guess Language Name', function() {
   
   it('Test Guess Language Name', function(done) {
-    guessLanguage.name(text, function(name) {
+    GuessLanguage.name(text, function(name) {
       assert.equal("French", name);
       done();
     });
@@ -106,7 +106,7 @@ describe('Guess Language Name', function() {
 describe('Guess Language Code', function() {
   
   it('Test Guess Language Code', function(done) {
-    guessLanguage.code(text, function(code) {
+    GuessLanguage.code(text, function(code) {
       assert.equal(26150, code);
       done();
     });
@@ -117,7 +117,7 @@ describe('Guess Language Code', function() {
 describe('Guess Language Info', function() {
   
   it('Test Guess Language Info', function(done) {
-    guessLanguage.info(text, function(info) {
+    GuessLanguage.info(text, function(info) {
       assert.deepEqual(["fr", 26150, "French"], info);
       done();
     });

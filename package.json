@@ -1,24 +1,41 @@
 {
-  "name": "guesslanguage",
-  "version": "0.2.0",
-  "description": "Guess the natural language of a run of text",
-  "keywords": [
-    "guesslanguage",
-    "guess_language",
-    "guesslanguage.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/richtr/guessLanguage.js"
-  },
-  "bugs": { "url": "https://github.com/richtr/guessLanguage.js/issues" },
-  "author": "Rich Tibbett <rich.tibbett@gmail.com>",
-  "license": "LGPL",
-  "main": "./lib/guessLanguage",
-  "engines": {
-    "node": ">= 0.4"
-  },
-  "scripts": {
-    "test": "make test"
-  }
+    "name": "Guesslanguage",
+    "version": "0.3.0",
+    "description": "Guess the natural language of a run of text",
+    "keywords": [
+        "Guesslanguage",
+        "guesslanguage",
+        "guess_language",
+        "Guess_language",
+        "Guesslanguage.js",
+        "guesslanguage.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/richtr/guessLanguage.js"
+    },
+    "bugs": {
+        "url": "https://github.com/richtr/guessLanguage.js/issues"
+    },
+    "contributors": [
+        "Pasang Sherpa <pasangsherpa@inkstonehq.com>"
+    ],
+    "author": "Rich Tibbett <rich.tibbett@gmail.com>",
+    "license": "LGPL",
+    "main": "./lib/guessLanguage",
+    "engines": {
+        "node": ">= 0.4"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "devDependencies": {
+        "mocha": "~1.20.1",
+        "grunt": "^0.4.2",
+        "grunt-contrib-concat": "^0.4.0",
+        "grunt-contrib-clean": "^0.4.0",
+        "grunt-contrib-uglify": "^0.4.0",
+        "grunt-contrib-jshint": "^0.10.0",
+        "load-grunt-tasks": "^0.4.0"
+    }
 }

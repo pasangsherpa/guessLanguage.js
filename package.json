@@ -1,13 +1,10 @@
 {
-    "name": "Guesslanguage",
+    "name": "guesslanguage",
     "version": "0.3.0",
     "description": "Guess the natural language of a run of text",
     "keywords": [
-        "Guesslanguage",
         "guesslanguage",
         "guess_language",
-        "Guess_language",
-        "Guesslanguage.js",
         "guesslanguage.js"
     ],
     "repository": {

@@ -1,5 +1,5 @@
 /*!
-* Guesslanguage
+* guesslanguage
 * v0.3.0 - 2014-07-08
 * (c) Rich Tibbett <rich.tibbett@gmail.com>; LGPL License
 * Contributors: Pasang Sherpa <pasangsherpa@inkstonehq.com>

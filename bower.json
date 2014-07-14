@@ -1,0 +1,9 @@
+{
+	"name": "guesslanguage",
+	"version": "0.3.0",
+	"main": "fontLanguageFixer.js",
+	"ignore": [
+		"test/",
+		".gitignore"
+	]
+}
